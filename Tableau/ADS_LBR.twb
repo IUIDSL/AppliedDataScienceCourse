@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.17.1226.1925                               -->
+<workbook original-version='10.5' source-build='10.5.0 (10500.17.1226.1925)' source-platform='mac' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='low_birth_rate_full' inline='true' name='federated.071afln0x4lyna168hhfd1axa394' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='low_birth_rate_full' name='textscan.1qkjxew0q380vc1792b4417npnx5'>
+            <connection class='textscan' directory='/Users/jjyang/Dropbox/IU/ADS/data' filename='low_birth_rate_full.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1qkjxew0q380vc1792b4417npnx5' name='low_birth_rate_full.csv' table='[low_birth_rate_full#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='integer' name='LOW' ordinal='1' />
+            <column datatype='integer' name='AGE' ordinal='2' />
+            <column datatype='integer' name='LWT' ordinal='3' />
+            <column datatype='integer' name='RACE' ordinal='4' />
+            <column datatype='integer' name='SMOKE' ordinal='5' />
+            <column datatype='integer' name='PTL' ordinal='6' />
+            <column datatype='integer' name='HT' ordinal='7' />
+            <column datatype='integer' name='UI' ordinal='8' />
+            <column datatype='integer' name='FTV' ordinal='9' />
+            <column datatype='integer' name='BWT' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LOW]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>LOW</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGE]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>AGE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LWT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LWT]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>LWT</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RACE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RACE]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>RACE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SMOKE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SMOKE]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>SMOKE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PTL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PTL]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>PTL</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HT]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>HT</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UI]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>UI</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FTV</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FTV]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>FTV</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BWT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BWT]</local-name>
+            <parent-name>[low_birth_rate_full.csv]</parent-name>
+            <remote-alias>BWT</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[BWT (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='2' formula='[BWT]' peg='0' size='238' />
+      </column>
+      <column datatype='integer' name='[BWT]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Race' datatype='integer' name='[RACE]' role='measure' type='quantitative' />
+      <column caption='Smoke' datatype='integer' name='[SMOKE]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.298651' measure-ordering='alphabetic' measure-percentage='0.701349' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='low_birth_rate_full' name='federated.071afln0x4lyna168hhfd1axa394' />
+          </datasources>
+          <datasource-dependencies datasource='federated.071afln0x4lyna168hhfd1axa394'>
+            <column datatype='integer' name='[BWT (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='2' formula='[BWT]' peg='0' size='238' />
+            </column>
+            <column datatype='integer' name='[BWT]' role='measure' type='quantitative' />
+            <column-instance column='[BWT]' derivation='Count' name='[cnt:BWT:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BWT (bin)]' derivation='None' name='[none:BWT (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+          </pane>
+        </panes>
+        <rows>[federated.071afln0x4lyna168hhfd1axa394].[cnt:BWT:qk]</rows>
+        <cols>[federated.071afln0x4lyna168hhfd1axa394].[none:BWT (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.071afln0x4lyna168hhfd1axa394].[BWT (bin)]</column>
+        </show-full-range>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
