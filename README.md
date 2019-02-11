@@ -23,9 +23,14 @@ and a option for an original student proposal.  These options enable educational
 advantages for a range of student profiles.
 
 ADS Overview Diagram:
+
 ![ADS Overview Diagram](images/ADS_Overview_Diagram.jpeg)
 
 Another addition was to recommend as an accompanying textbook "Doing Data Science" by
 Cathy O'Neill and Rachel Schutt, which aligns well with the theme and content of ADS.
 Another addition was a short enriching video lecture "Why Data Scientists Like Models"
 describing the various important meanings of models and modeling.
+
+Jupyter notebook developed for a video tutorial on the Twitter API final exercise option:
+
+![TwitterAPI Jupyter-Colaboratory notebook](images/ADS_TwitterAPI_Jupyter-Colaboratory.png)
