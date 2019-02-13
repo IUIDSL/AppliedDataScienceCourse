@@ -17,20 +17,31 @@ replacing R-Commander with R-Studio.  Informed by discussions with Joanne and Ka
 Jeremy revised the third unit on machine learning algorithms, slightly reducing the number
 of algorithms covered, but enhancing the contextualization, the understanding of how to
 select appropriate algorithm classes for given scenarios.  Additionally, the "Final
-Exercise" was revised, to three options: the Kaggle challenge previously required, for
-advanced students, a Twitter API sentiment analysis problem formerly required in module 9,
-and a option for an original student proposal.  These options enable educational
+Exercise" was revised, to three options: (1) the Kaggle challenge previously required, for
+advanced students, (2) a Twitter API sentiment analysis problem formerly required in module 9,
+and (3) a option for an original student proposal.  These options enable educational
 advantages for a range of student profiles.
 
 ADS Overview Diagram:
 
 ![ADS Overview Diagram](images/ADS_Overview_Diagram.jpeg)
 
+Jupyter notebook developed for a video tutorial on the Twitter API final exercise option:
+![TwitterAPI Jupyter-Colaboratory notebook](images/ADS_TwitterAPI_Jupyter-Colaboratory.png)
+
 Another addition was to recommend as an accompanying textbook "Doing Data Science" by
 Cathy O'Neill and Rachel Schutt, which aligns well with the theme and content of ADS.
 Another addition was a short enriching video lecture "Why Data Scientists Like Models"
 describing the various important meanings of models and modeling.
 
-Jupyter notebook developed for a video tutorial on the Twitter API final exercise option:
+!["Doing Data Science" by Cathy O'Neill and Rachel Schutt](images/DoingDataScience_cover.jpg)
 
-![TwitterAPI Jupyter-Colaboratory notebook](images/ADS_TwitterAPI_Jupyter-Colaboratory.png)
+Some diagrams and resources related to the workflows of data science:
+
+![data science flowchart](images/DataScienceFlowchart.png)
+
+![Art of Data Science book](images/ArtOfDataScience_cover.png)
+
+![Roger Peng's Data Science Epicycles diagram](images/Peng-Data-Science-Epicycles.jpg)
+
+![data science teams and roles](images/data-science-teams.png)
