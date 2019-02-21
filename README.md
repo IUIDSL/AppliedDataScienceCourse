@@ -24,24 +24,23 @@ advantages for a range of student profiles.
 
 ADS Overview Diagram:
 
-![ADS Overview Diagram](images/ADS_Overview_Diagram.jpeg)
+> <img src="images/ADS_Overview_Diagram.jpeg" width="600">
 
 Jupyter notebook developed for a video tutorial on the Twitter API final exercise option:
-![TwitterAPI Jupyter-Colaboratory notebook](images/ADS_TwitterAPI_Jupyter-Colaboratory.png)
+
+> <img src="images/ADS_TwitterAPI_Jupyter-Colaboratory.png" width="600">
 
 Another addition was to recommend as an accompanying textbook "Doing Data Science" by
 Cathy O'Neill and Rachel Schutt, which aligns well with the theme and content of ADS.
 Another addition was a short enriching video lecture "Why Data Scientists Like Models"
 describing the various important meanings of models and modeling.
 
-!["Doing Data Science" by Cathy O'Neill and Rachel Schutt](images/DoingDataScience_cover.jpg)
+> <img src="images/DoingDataScience_cover.jpg">
 
 Some diagrams and resources related to the workflows of data science:
 
-![data science flowchart](images/DataScienceFlowchart.png)
-
-![Art of Data Science book](images/ArtOfDataScience_cover.png)
-
-![Roger Peng's Data Science Epicycles diagram](images/Peng-Data-Science-Epicycles.jpg)
-
-![data science teams and roles](images/data-science-teams.png)
+| <img src="images/data-science-teams.png" width="400"> | <img src="images/DataScienceFlowchart.png" width="400"> |
+|:---:|:---:|
+| Data science teams and roles | Data science flowchart |
+| <img src="images/ArtOfDataScience_cover.png" width="400"> | <img src="images/Peng-Data-Science-Epicycles.jpg" width="400">  |
+| Art of Data Science book | Roger Peng's Data Science Epicycles diagram  |
