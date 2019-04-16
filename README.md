@@ -22,6 +22,17 @@ advanced students, (2) a Twitter API sentiment analysis problem formerly require
 and (3) a option for an original student proposal.  These options enable educational
 advantages for a range of student profiles.
 
+## Videos
+
+* [Tableau and Cricket Intro](https://youtu.be/bpVyxE-b53s)
+* [A8 Tutorial RStudio part 1](https://youtu.be/SFSD4lvfLV8)
+* [A8 Tutorial RStudio part 2](https://youtu.be/86SZKGXkAMQ)
+* [Tutorial: Python, Scikit-learn; algorithms Naïve Bayes and Neural Networks](https://youtu.be/Nh526ML7BIU)
+* [Twitter API Tutorial part 1](https://youtu.be/UmDjMEW3_js)
+* [Twitter API Tutorial part 2](https://youtu.be/w6EhDZ_mRgk)
+* [Why Data Scientists Like Models](https://youtu.be/7_TqniMriGg)
+
+
 ADS Overview Diagram:
 
 > <img src="images/ADS_Overview_Diagram.jpeg" width="600">
