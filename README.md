@@ -35,7 +35,7 @@ advantages for a range of student profiles.
 
 ADS Overview Diagram:
 
-> <img src="images/ADS_Overview_Diagram.jpeg" width="600">
+> <img src="images/ADS_Course_Diagram.jpeg" width="600">
 
 Jupyter notebook developed for a video tutorial on the Twitter API final exercise option:
 
